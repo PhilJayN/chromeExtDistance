@@ -1,0 +1,21 @@
+{
+"name": "Distance Estimator",
+"version": "1.0",
+"manifest_version": 2,
+
+
+"description": "Automatically calculate how far a city is from you by simply highlighting the city name.",
+"icons": {
+  "128": "icon-fb.jpg"
+},
+
+"browser_action": {
+  "default_title": "title! def",
+  "default_popup": "popup.html"
+},
+
+"permissions": [
+  "http://*/*", "https://*/*"
+]
+
+}
